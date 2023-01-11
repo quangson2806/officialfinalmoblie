@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/username_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:columnCount="4"
+            android:rowCount="10"
+            tools:context="com.android_examples.com.gridlayout.MainActivity">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:text="Hello, Welcome Back!"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_edittext"
+                android:iconifiedByDefault="false"
+                android:outlineAmbientShadowColor="@color/purple_200"
+                android:queryHint="Search here" />
+
+            <ImageView
+                android:id="@+id/textView0"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/home_background"
+                android:padding="60dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:paddingLeft="120dp"
+                android:text="Get your files offline"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:hint="Make your most important files available without an internet connection"
+                android:paddingLeft="30dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </GridLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btn_file"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="10dp"
+                android:text="File"
+                android:onClick="btnFile"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.13"
+                app:cornerRadius="10dp"/>
+
+            <Button
+                android:id="@+id/btn_image"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:text="Image"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:onClick="btnImage"
+                android:layout_marginLeft="-50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.13"
+                app:cornerRadius="10dp"/>
+
+            <Button
+                android:id="@+id/btn_video"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:text="Video"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:onClick="btnVideo"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.13"
+                app:cornerRadius="10dp"/>
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="2dp"
+                android:text="Profile"
+                android:textSize="14dp"
+                android:onClick="btnProfile"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.13"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

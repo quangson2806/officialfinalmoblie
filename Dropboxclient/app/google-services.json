@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668258269625",
+    "project_id": "dropbox-5a5d9",
+    "storage_bucket": "dropbox-5a5d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668258269625:android:70144ba45f714dee0a5e68",
+        "android_client_info": {
+          "package_name": "usth.edu.dropboxclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668258269625-bvug8eahpnqjn8hf4djfvgl92pjp6opl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "usth.edu.dropboxclient",
+            "certificate_hash": "b202c3c19d37d923d6b199d6559c7d785b2f3459"
+          }
+        },
+        {
+          "client_id": "668258269625-k0kosu1sg7heh4f6on0i28brqdrq035i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqkPUJftpkWnzrvcJZmd9HHoMML1eeTCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668258269625-k0kosu1sg7heh4f6on0i28brqdrq035i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
